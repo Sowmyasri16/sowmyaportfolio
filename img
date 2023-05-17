@@ -1,0 +1,12 @@
+DOCTYPE html>
+<html>
+    <head>
+        <title>first</title>
+    </head>
+    <body>
+        <p>
+            my first html application
+        </p>
+        <img src="download.jpg" alt ="pic">
+    </body>
+</html>
