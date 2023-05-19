@@ -1,0 +1,30 @@
+header{
+    background-color: darkviolet
+}
+h1{
+    text-shadow: 20px,20px,20px,rebeccapurple;
+    color:black ; text-align: center;
+}
+h6{
+    color:black ; text-align: center;
+}
+nav{
+    background-color: brown;
+}
+ h4{
+       color: white;
+}
+.para 
+{
+       text-transform: capitalize;
+       background-color: yellow;
+    
+
+}
+body{
+    background-color: darkkhaki;
+    background-image: url("milkway.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
