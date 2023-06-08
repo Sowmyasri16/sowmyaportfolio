@@ -1,0 +1,25 @@
+package javapractice;
+
+public class Sins {
+	int a=20;
+	int b=30;
+	public static void main(String[] args) {
+		Sins s= new Sins(50);
+		System.out.println(s.a);
+		 s.harshi();
+	   Sins s1= new Sins();
+
+		
+		
+	}
+	public void harshi() {
+		System.out.println("hellooooooo");
+	}
+	public Sins() {
+		System.out.println("namasthey");
+	}
+	public Sins(int c) {
+		System.out.println("hell");}
+
+
+}
