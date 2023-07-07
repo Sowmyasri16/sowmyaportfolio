@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+             height :50px;
+             width: 400px;
+             background-color: aqua;
+             margin: 50px;
+             margin-left: 100px;
+             border: 120px;
+             padding: 2%;
+             text-align: center;
+             text-shadow: 15px;
+             text-shadow: black;
+             border: ridge;
+             border-radius: 5px;
+             
+        }
+        div{
+            background-color: brown;
+            margin: 50px;
+            border: 120px;
+            padding-left: 50px;
+            width:600px;
+            border: ridge;
+            border-color: black;
+            border-radius: 10px;
+        }
+        
+    </style>
+    <script>
+        function check(age)
+        {
+            if (document.getElementById("age").value>=18)
+            {
+                document.write("you are eligible");
+            }
+            else
+            {
+                window.alert("you are not eligible");
+            }
+        }
+
+    </script>
+    
+</head>
+<body>
+    <h1>conditional statements</h1>
+    <form>
+    <div>
+        <h2> Eligibility checking for vote</h2>
+        Enter you  name:<input type="text">
+        <br>
+
+        <h4>gender</h4>
+        male <input type="radio" type="gender" class = "gender" name="gender">
+        female <input type="radio" type="gender" class = "gender" name ="gender">
+        <br>
+        Enter your age:<input type="text" id="age">
+        <br>
+        <button onclick=check() > verify</button>
+
+    </div>
+</form>
+</body>
+</html>

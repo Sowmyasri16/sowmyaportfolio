@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+     function display()
+     {
+        var i;
+        res="";
+        for(i=1;i<=document.getElementById("num").value;i++)
+        {
+            res=res+i+" ";
+            document.getElementById("here").innerHTML=res;
+            if(i%10==0)
+            {
+                res=res+"<br>";
+            }
+        }
+     }
+</script>
+<body>
+    <h1>printing 1 to n numbers</h1>
+    Enter value:<input type="text" id="num">
+    <br>
+    <button onclick= display()>print</button>
+    <br>
+    <br>
+    <h1 id="here"></h1>
+    
+</body>
+</html>
